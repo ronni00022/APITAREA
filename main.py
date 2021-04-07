@@ -132,7 +132,7 @@ def Vacunados_Todos():
     datos = registro.fetchall()
     for I in datos:
         a.append({"ID":I[0],"CEDULA":I[1],"NOMBRE":I[2],"APELLIDO":I[3],"FECHA_N":I[4],"TELEFONO":I[5],"EMAIL":I[6],"SANGRE":I[7],"PROVINCIA":I[8],"DIRECCION":I[9],"LATITUD":I[10],"LONGITUD":I[11],"CONFIRMACION":I[12],"JUSTIFICACION":I[13]})
-        return a
+    return a
 
 
 
